@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Inter_18pt-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    font-family: "inter", "Arial", sans-serif;
+    font-size: 22px;
+    /* line-height: 21px; */
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #873DDB;
+}
+
+.cover {
+    background-image: url("../images/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.stars {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 50px;
+    padding: 0;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: start;
+}
+
+.card {
+    display: block;
+    align-items: center;
+    background-color: #873DDB;
+    border-radius: 18px;
+    padding: 20px 60px;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 185px;
+}
+
+.avatar {
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 42px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.job {
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.location {
+    color: black;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.link {
+    display: block;
+    /* line-height: 24px; */
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.links a:nth-child(odd) {
+    background-color: #111D51;
+}
+
+.links a:nth-child(even) {
+    background-color: #1D318C;
+}
+
+.links a:last-child {
+    margin: 0;
+}
